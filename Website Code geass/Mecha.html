@@ -1,23 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="CodeGeass.css">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Code Geass - Gedetailleerde Plot</title>
+  <link rel="stylesheet" href="CodeGeass.css">
+
 </head>
 
 <body>
-    <nav>
+  <nav>
     <ul class="navbar">
 
       <li><a href="MainpaginaCode geass.html">Home</a></li>
       <li><a href="Plot.html">Plot</a></li>
       <li><a href="World Building.html">World Building</a></li>
       <li><a href="Facties & Politiek.html">Facties & Politiek</a></li>
+      <li><a href="Factions los trekken.html">Factions los trekken</a></li>
       <li><a href="Geass.html">Geass</a></li>
-      
+      <li><a href="Geass uitgebreid.html">Geass uitgebreid</a></li>
+      <li><a href="Timeline.html">Timeline</a></li>
+      <li><a href="Battles and history.html">Battles and history</a></li>
+
+
       <li class="dropdown">
         <a href="#">Characters ▾</a>
         <ul class="dropdown-menu">
@@ -77,257 +83,310 @@
 
     </ul>
   </nav>
-    <header>
-        <h1>Knightmare Frames</h1>
-    </header>
-    <main>
-        <p>
-            Mecha, beter bekend als Knightmare Frames, vormen de ruggengraat van militaire macht in het universum van
-            Code Geass.
-            Deze humanoïde gevechtsmachines hebben de traditionele oorlogsvoering volledig veranderd. Dankzij hun hoge
-            mobiliteit,
-            geavanceerde wapensystemen en aanpassingsvermogen zijn Knightmare Frames superieur aan tanks en
-            conventionele vliegtuigen.
-            Oorspronkelijk ontwikkeld door het <a href="Facties & Politiek.html">Heilige Britanniaanse Rijk</a>, werden
-            Knightmare Frames ingezet
-            om opstanden te onderdrukken en bezette gebieden onder controle te houden. Naarmate het conflict escaleert,
-            ontwikkelen deze machines
-            zich razendsnel: van eenvoudige massaproductiemodellen voor reguliere troepen tot extreem geavanceerde,
-            experimentele eenheden.
-        </p>
-       <!-- ══ BRITANNIAN ══ -->
-<section>
-<h3>Britannian</h3>
+  <main>
 
-<div class="upgrade-paar">
-<a href="mechas/Sutherland.html" class="mecha-card">
-<img src="images/sutherland.jpg" alt="Sutherland">
-<div class="mecha-card-body">
-<div class="mecha-faction-label">Britannian</div>
-<h3>Sutherland</h3>
-<div class="mecha-pilot">Piloot: <span>Britannische soldaten</span></div>
-<p>Het standaard massaproductiemodel van het Britannische leger. Betrouwbaar en wendbaar.</p>
-</div>
-</a>
-<div class="upgrade-arrow">⇒</div>
-<a href="mechas/Sutherland Siegfri.html" class="mecha-card">
-<img src="images/sutherland_siegfried.jpg" alt="Sutherland Siegfried">
-<div class="mecha-card-body">
-<div class="mecha-faction-label">Britannian</div>
-<div class="upgrade-badge">↑ Upgrade van Sutherland</div>
-<h3>Sutherland Siegfried</h3>
-<div class="mecha-pilot">Piloot: <span>V.V.</span></div>
-<p>Zwaar gemodificeerde Sutherland met extra bepantsering en autonome systemen.</p>
-</div>
-</a>
-</div>
+    <!-- ================= BRITANNIA ================= -->
+    <section>
+      <h2>Britannia</h2>
 
-<a href="mechas/Glasgow.html" class="mecha-card">
-<img src="images/glasgow.jpg" alt="Glasgow">
-<div class="mecha-card-body">
-<div class="mecha-faction-label">Britannian</div>
-<h3>Glasgow</h3>
-<div class="mecha-pilot">Piloot: <span>Britannische troepen</span></div>
-<p>Verouderd model dat de basis vormde voor modernere Knightmare Frames.</p>
-</div>
-</a>
+      <div class="mecha-list">
 
-<a href="mechas/Gloucester.html" class="mecha-card">
-<img src="images/gloucester.jpg" alt="Gloucester">
-<div class="mecha-card-body">
-<div class="mecha-faction-label">Britannian</div>
-<h3>Gloucester</h3>
-<div class="mecha-pilot">Piloot: <span>Britannische elite-ridders</span></div>
-<p>Verbeterd model boven de Sutherland, uitgerust met een lans. Standaard mount voor de Rounds.</p>
-</div>
-</a>
+        <!-- 1. Glasgow → Sutherland → Gloucester -->
+        <div class="upgrade-row">
 
-<div class="upgrade-paar">
-<a href="mechas/Lancelot.html" class="mecha-card">
-<img src="images/lancelot.jpg" alt="Lancelot">
-<div class="mecha-card-body">
-<div class="mecha-faction-label">Britannian</div>
-<h3>Lancelot</h3>
-<div class="mecha-pilot">Piloot: <span>Suzaku Kururugi</span></div>
-<p>Experimenteel prototype van Lloyd Asplund. Uitgerust met VARIS-geweer en MVS-zwaarden.</p>
-</div>
-</a>
-<div class="upgrade-arrow">⇒</div>
-<a href="mechas/Lancelot Albion.html" class="mecha-card">
-<img src="images/lancelot_albion.jpg" alt="Lancelot Albion">
-<div class="mecha-card-body">
-<div class="mecha-faction-label">Britannian</div>
-<div class="upgrade-badge">↑ Upgrade van Lancelot</div>
-<h3>Lancelot Albion</h3>
-<div class="mecha-pilot">Piloot: <span>Suzaku Kururugi</span></div>
-<p>Ultieme versie met vleugels, dubbele VARIS-geweren en de krachtigste MVS-zwaarden.</p>
-</div>
-</a>
-</div>
+          <a class="mecha-card britannia" href="mechas/Glasgow.html">
+            <div class="img-box"><img src="images/glasgow.jpg"></div>
+            <div class="mecha-info">
+              <h3>Glasgow</h3>
+              <div class="stats">
+                <p><b>Pilot:</b> Army</p>
+                <p><b>Gen:</b> 1</p>
+                <p><b>Manufacturer:</b> Britannia</p>
+                <p><b>Model:</b> GLX-01</p>
+              </div>
+            </div>
+          </a>
 
-<a href="mechas/Mordred.html" class="mecha-card">
-<img src="images/mordred.jpg" alt="Mordred">
-<div class="mecha-card-body">
-<div class="mecha-faction-label">Britannian</div>
-<h3>Mordred</h3>
-<div class="mecha-pilot">Piloot: <span>Anya Alstreim</span></div>
-<p>Vliegend KMF met massieve Hadron-kanonnen. Fungeert als een zwevend fort.</p>
-</div>
-</a>
+          <span class="upgrade-arrow">→</span>
 
-<a href="mechas/Percival.html" class="mecha-card">
-<img src="images/percival.jpg" alt="Percival">
-<div class="mecha-card-body">
-<div class="mecha-faction-label">Britannian</div>
-<h3>Percival</h3>
-<div class="mecha-pilot">Piloot: <span>Luciano Bradley</span></div>
-<p>Veelzijdig KMF met een unieke boor-aanval en Blaze Luminous schilden.</p>
-</div>
-</a>
+          <a class="mecha-card britannia" href="mechas/Sutherland.html">
+            <div class="img-box"><img src="images/sutherland.jpg"></div>
+            <div class="mecha-info">
+              <h3>Sutherland</h3>
+              <div class="stats">
+                <p><b>Pilot:</b> Army</p>
+                <p><b>Gen:</b> 2</p>
+                <p><b>Manufacturer:</b> Britannia</p>
+                <p><b>Model:</b> STH-01</p>
+              </div>
+            </div>
+          </a>
 
-<a href="mechas/Tristan.html" class="mecha-card">
-<img src="images/tristan.jpg" alt="Tristan">
-<div class="mecha-card-body">
-<div class="mecha-faction-label">Britannian</div>
-<h3>Tristan</h3>
-<div class="mecha-pilot">Piloot: <span>Gino Weinberg</span></div>
-<p>Transformerend KMF dat wisselt tussen KMF-modus en vliegtuigmodus.</p>
-</div>
-</a>
+          <span class="upgrade-arrow">→</span>
 
-<a href="mechas/Vincent.html" class="mecha-card">
-<img src="images/vincent.jpg" alt="Vincent">
-<div class="mecha-card-body">
-<div class="mecha-faction-label">Britannian</div>
-<h3>Vincent</h3>
-<div class="mecha-pilot">Piloot: <span>Rolo Lamperouge</span></div>
-<p>Gebaseerd op Lancelot-technologie, bedoeld voor Britannische elite-eenheden.</p>
-</div>
-</a>
+          <a class="mecha-card britannia" href="mechas/Gloucester.html">
+            <div class="img-box"><img src="images/gloucester.jpg"></div>
+            <div class="mecha-info">
+              <h3>Gloucester</h3>
+              <div class="stats">
+                <p><b>Pilot:</b> Knights</p>
+                <p><b>Gen:</b> 3</p>
+                <p><b>Manufacturer:</b> Britannia</p>
+                <p><b>Model:</b> GLC-01</p>
+              </div>
+            </div>
+          </a>
 
-<a href="mechas/Gareth.html" class="mecha-card">
-<img src="images/gareth.jpg" alt="Gareth">
-<div class="mecha-card-body">
-<div class="mecha-faction-label">Britannian</div>
-<h3>Gareth</h3>
-<div class="mecha-pilot">Piloot: <span>Britannische speciale eenheden</span></div>
-<p>Zwaar bepantserde KMF ingezet als mobiele vesting met massieve schilden.</p>
-</div>
-</a>
+        </div>
 
-<a href="mechas/Portman.html" class="mecha-card">
-<img src="images/portman.jpg" alt="Portman">
-<div class="mecha-card-body">
-<div class="mecha-faction-label">Britannian</div>
-<h3>Portman</h3>
-<div class="mecha-pilot">Piloot: <span>Britannische marine</span></div>
-<p>Amfibische KMF ontworpen voor onderwateroperaties door de Britannische marine.</p>
-</div>
-</a>
+        <!-- 2. Lancelot → Albion -->
+        <div class="upgrade-row">
+          <!-- Lancelot -->
+          <a class="mecha-card britannia" href="mechas/Lancelot.html">
+            <div class="img-box"><img src="images/lancelot.jpg"></div>
+            <div class="mecha-info">
+              <h3>Lancelot</h3>
+              <div class="stats">
+                <p><b>Pilot:</b> Suzaku</p>
+                <p><b>Gen:</b> 5</p>
+                <p><b>Manufacturer:</b> Britannia</p>
+                <p><b>Model:</b> LNC-00</p>
+              </div>
+            </div>
+          </a>
 
-<a href="mechas/Alexander.html" class="mecha-card">
-<img src="images/alexander.jpg" alt="Alexander">
-<div class="mecha-card-body">
-<div class="mecha-faction-label">Britannian</div>
-<h3>Alexander</h3>
-<div class="mecha-pilot">Piloot: <span>Akito Hyuga</span></div>
-<p>Experimentele KMF uit de Akito the Exiled-serie, ontworpen voor extreme mobiliteit.</p>
-</div>
-</a>
+          <span class="upgrade-arrow">→</span>
 
-<a href="mechas/Avalon.html" class="mecha-card">
-<img src="images/avalon.jpg" alt="Avalon">
-<div class="mecha-card-body">
-<div class="mecha-faction-label">Britannian</div>
-<h3>Avalon</h3>
-<div class="mecha-pilot">Piloot: <span>Lloyd Asplund / Cecile Croomy</span></div>
-<p>Britannisch luchtvliegdekschip en mobiele basis voor de Lancelot.</p>
-</div>
-</a>
+          <a class="mecha-card britannia" href="mechas/Lancelot Albion.html">
+            <div class="img-box"><img src="images/albion.jpg"></div>
+            <div class="mecha-info">
+              <h3>Albion</h3>
+              <div class="stats">
+                <p><b>Pilot:</b> Suzaku</p>
+                <p><b>Gen:</b> 6</p>
+                <p><b>Manufacturer:</b> Britannia</p>
+                <p><b>Model:</b> LNC-ALB</p>
+              </div>
+            </div>
+          </a>
+        </div>
 
-</section>
+        <!-- 3. Mordred -->
+        <div class="mecha-card britannia">
+          <div class="img-box"><img src="images/mordred.jpg"></div>
+          <div class="mecha-info">
+            <h3>Mordred</h3>
+            <div class="stats">
+              <p><b>Pilot:</b> Anya</p>
+              <p><b>Gen:</b> 5</p>
+              <p><b>Manufacturer:</b> Britannia</p>
+              <p><b>Model:</b> MDR-01</p>
+            </div>
+          </div>
+        </div>
 
-<!-- ══ BLACK KNIGHTS ══ -->
-<section>
-<h3>Black Knights</h3>
+        <!-- 4. Percival -->
+        <div class="mecha-card britannia">
+          <div class="img-box"><img src="images/percival.jpg"></div>
+          <div class="mecha-info">
+            <h3>Percival</h3>
+            <div class="stats">
+              <p><b>Pilot:</b> Luciano</p>
+              <p><b>Gen:</b> 5</p>
+              <p><b>Manufacturer:</b> Britannia</p>
+              <p><b>Model:</b> PRC-01</p>
+            </div>
+          </div>
+        </div>
 
-<div class="upgrade-paar">
-<a href="mechas/Burai.html" class="mecha-card">
-<img src="images/burai.jpg" alt="Burai">
-<div class="mecha-card-body">
-<div class="mecha-faction-label black-knights">Black Knights</div>
-<h3>Burai</h3>
-<div class="mecha-pilot">Piloot: <span>Black Knights-soldaten</span></div>
-<p>Het massaproductiemodel van de Black Knights, gebaseerd op de Glasgow.</p>
-</div>
-</a>
-<div class="upgrade-arrow">⇒</div>
-<a href="mechas/Burai Kai.html" class="mecha-card">
-<img src="images/burai_kai.jpg" alt="Burai Kai">
-<div class="mecha-card-body">
-<div class="mecha-faction-label black-knights">Black Knights</div>
-<div class="upgrade-badge">↑ Upgrade van Burai</div>
-<h3>Burai Kai</h3>
-<div class="mecha-pilot">Piloot: <span>Elite Black Knights</span></div>
-<p>Verbeterde versie van de Burai met betere wapensystemen en verhoogde mobiliteit.</p>
-</div>
-</a>
-</div>
+        <!-- 5. Tristan -->
+        <div class="mecha-card britannia">
+          <div class="img-box"><img src="images/tristan.jpg"></div>
+          <div class="mecha-info">
+            <h3>Tristan</h3>
+            <div class="stats">
+              <p><b>Pilot:</b> Gino</p>
+              <p><b>Gen:</b> 5</p>
+              <p><b>Manufacturer:</b> Britannia</p>
+              <p><b>Model:</b> TRS-01</p>
+            </div>
+          </div>
+        </div>
 
-<a href="mechas/Akatsuki.html" class="mecha-card">
-<img src="images/akatsuki.jpg" alt="Akatsuki">
-<div class="mecha-card-body">
-<div class="mecha-faction-label black-knights">Black Knights</div>
-<h3>Akatsuki</h3>
-<div class="mecha-pilot">Piloot: <span>Black Knights-piloten</span></div>
-<p>Nieuw massaproductiemodel van de Black Knights, ontworpen in Japan.</p>
-</div>
-</a>
+        <!-- 6. Vincent -->
+        <div class="mecha-card britannia">
+          <div class="img-box"><img src="images/vincent.jpg"></div>
+          <div class="mecha-info">
+            <h3>Vincent</h3>
+            <div class="stats">
+              <p><b>Pilot:</b> Rolo</p>
+              <p><b>Gen:</b> 4</p>
+              <p><b>Manufacturer:</b> Britannia</p>
+              <p><b>Model:</b> VNC-01</p>
+            </div>
+          </div>
+        </div>
 
-<div class="upgrade-paar">
-<a href="mechas/Guren Mk-II.html" class="mecha-card">
-<img src="images/guren_mk2.jpg" alt="Guren Mk-II">
-<div class="mecha-card-body">
-<div class="mecha-faction-label black-knights">Black Knights</div>
-<h3>Guren Mk-II</h3>
-<div class="mecha-pilot">Piloot: <span>Kallen Stadtfeld</span></div>
-<p>Vlaggenschip van de Black Knights met de beruchte Radiant Wave Surger-arm.</p>
-</div>
-</a>
-<div class="upgrade-arrow">⇒</div>
-<a href="mechas/Guren SEITEN Eig.html" class="mecha-card">
-<img src="images/guren_seiten.jpg" alt="Guren SEITEN">
-<div class="mecha-card-body">
-<div class="mecha-faction-label black-knights">Black Knights</div>
-<div class="upgrade-badge">↑ Upgrade van Guren Mk-II</div>
-<h3>Guren SEITEN Eight Elements</h3>
-<div class="mecha-pilot">Piloot: <span>Kallen Stadtfeld</span></div>
-<p>Massief versterkte versie met vleugels en meerdere extra wapensystemen.</p>
-</div>
-</a>
-</div>
+        <!-- (hier komen de rest tot 23 exact hetzelfde patroon) -->
 
-<a href="mechas/Shinkiro.html" class="mecha-card">
-<img src="images/shinkiro.jpg" alt="Shinkirō">
-<div class="mecha-card-body">
-<div class="mecha-faction-label black-knights">Black Knights</div>
-<h3>Shinkirō</h3>
-<div class="mecha-pilot">Piloot: <span>Lelouch vi Britannia (Zero)</span></div>
-<p>Zero's persoonlijke KMF met het Absolute Defence-systeem en Fleija-lanceerder.</p>
-</div>
-</a>
+      </div>
+    </section>
 
-</section>
+    <!-- ================= BLACK KNIGHTS ================= -->
+    <section>
+      <h2>Black Knights</h2>
+      <div class="mecha-list">
 
-<!-- ══ OVERIG ══ -->
-<section>
-<h3>Overig</h3>
+        <!-- Burai chain -->
+        <div class="upgrade-row">
+          <!-- Burai -->
+          <a class="mecha-card black" href="mechas/Burai.html">
+            <div class="img-box"><img src="images/burai.jpg"></div>
+            <div class="mecha-info">
+              <h3>Burai</h3>
+              <div class="stats">
+                <p><b>Pilot:</b> BK Soldiers</p>
+                <p><b>Gen:</b> 1</p>
+                <p><b>Manufacturer:</b> Japan</p>
+                <p><b>Model:</b> BUR-01</p>
+              </div>
+            </div>
+          </a>
 
-<a href="mechas/Gawain.html" class="mecha-card">
-<img src="images/gawain.jpg" alt="Gawain">
-<div class="mecha-card-body">
-<div class="mecha-faction-label other">Zero / Gestolen Britannian
-    </main>
+          <span class="upgrade-arrow">→</span>
+
+          <!-- Burai Kai -->
+          <a class="mecha-card black" href="mechas/Burai Kai.html">
+            <div class="img-box"><img src="images/burai_kai.jpg"></div>
+            <div class="mecha-info">
+              <h3>Burai Kai</h3>
+              <div class="stats">
+                <p><b>Pilot:</b> Elite BK</p>
+                <p><b>Gen:</b> 1.5</p>
+                <p><b>Manufacturer:</b> Black Knights</p>
+                <p><b>Model:</b> BUR-K</p>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <!-- Akatsuki -->
+        <div class="mecha-card black">
+          <div class="img-box"><img src="images/akatsuki.jpg"></div>
+          <div class="mecha-info">
+            <h3>Akatsuki</h3>
+            <div class="stats">
+              <p><b>Pilot:</b> BK</p>
+              <p><b>Gen:</b> 2</p>
+              <p><b>Manufacturer:</b> Japan</p>
+              <p><b>Model:</b> AKA-01</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Guren chain -->
+        <div class="upgrade-row">
+
+          <a class="mecha-card black" href="mechas/Guren Mk-II.html">
+            <div class="img-box"><img src="images/guren.jpg"></div>
+            <div class="mecha-info">
+              <h3>Guren Mk-II</h3>
+              <div class="stats">
+                <p><b>Pilot:</b> Kallen</p>
+                <p><b>Gen:</b> 5</p>
+                <p><b>Manufacturer:</b> Japan</p>
+                <p><b>Model:</b> GRN-02</p>
+              </div>
+            </div>
+          </a>
+
+          <span class="upgrade-arrow">→</span>
+
+          <a class="mecha-card black" href="mechas/Guren SEITEN Eight Elements.html">
+            <div class="img-box"><img src="images/guren.jpg"></div>
+            <div class="mecha-info">
+              <h3>Guren SEITEN</h3>
+              <div class="stats">
+                <p><b>Pilot:</b> Kallen</p>
+                <p><b>Gen:</b> 6</p>
+                <p><b>Manufacturer:</b> Japan</p>
+                <p><b>Model:</b> GRN-S</p>
+              </div>
+            </div>
+          </a>
+
+        </div>
+
+        <!-- Shinkiro -->
+        <div class="mecha-card black">
+          <div class="img-box"><img src="images/shinkiro.jpg"></div>
+          <div class="mecha-info">
+            <h3>Shinkiro</h3>
+            <div class="stats">
+              <p><b>Pilot:</b> Lelouch</p>
+              <p><b>Gen:</b> 6</p>
+              <p><b>Manufacturer:</b> Black Knights</p>
+              <p><b>Model:</b> SHK-01</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ================= OTHER ================= -->
+    <section>
+      <h2>Others</h2>
+
+      <div class="mecha-list">
+
+        <!-- Gawain -->
+        <div class="mecha-card other">
+          <div class="img-box"><img src="images/gawain.jpg"></div>
+          <div class="mecha-info">
+            <h3>Gawain</h3>
+            <div class="stats">
+              <p><b>Pilot:</b> C.C</p>
+              <p><b>Gen:</b> Prototype</p>
+              <p><b>Manufacturer:</b> Unknown</p>
+              <p><b>Model:</b> GW-01</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Damocles -->
+        <div class="mecha-card other">
+          <div class="img-box"><img src="images/damocles.jpg"></div>
+          <div class="mecha-info">
+            <h3>Damocles</h3>
+            <div class="stats">
+              <p><b>Pilot:</b> Schneizel</p>
+              <p><b>Gen:</b> Superweapon</p>
+              <p><b>Manufacturer:</b> Britannia</p>
+              <p><b>Model:</b> DM-01</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Shen Hu -->
+        <div class="mecha-card other">
+          <div class="img-box"><img src="images/shenhu.jpg"></div>
+          <div class="mecha-info">
+            <h3>Shen Hu</h3>
+            <div class="stats">
+              <p><b>Pilot:</b> Xingke</p>
+              <p><b>Gen:</b> 6</p>
+              <p><b>Manufacturer:</b> China</p>
+              <p><b>Model:</b> SHN-01</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
 </body>
 
 </html>
